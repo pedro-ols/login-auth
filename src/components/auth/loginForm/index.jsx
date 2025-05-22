@@ -4,7 +4,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/app/context/AuthContext.jsx";
-import styles from "./login.module.css";
+import styles from "./loginForm.module.css";
 
 const LoginForm = () => {
   const [formData, setFormData] = useState({

@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 import { useAuth } from "@/app/context/AuthContext.jsx";
-import styles from "./register.module.css";
+import styles from "./registerForm.module.css";
 
 const RegisterForm = ({ onSuccess }) => {
   const [formData, setFormData] = useState({
